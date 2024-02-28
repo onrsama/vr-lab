@@ -98,7 +98,7 @@ defineProps({
 <div class="container mx-auto px-24 bg-white">
     <!-- Keterangan -->
     <div class="flex flex-col md:p-20 p-5">
-        <h3 id="cg-title" class="md:text-5xl text-5xl font-bold mt-[1rem] text-white py-5 px-10">CGパース</h3>
+        <h3 id="cg-title" class="md:text-5xl text-5xl font-bold mt-[1rem] text-teal-500 py-5 px-10">CGパース</h3>
         <img src="imgs/2-1.jpg" alt="" class="w-full border-t-2 border-sky-500"> 
         <!-- images & need -->
         <!-- Images -->
@@ -183,5 +183,6 @@ defineProps({
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -600px;
+    text-shadow: 0 3px #fff;
 }
 </style>
