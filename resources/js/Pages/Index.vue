@@ -94,8 +94,11 @@ defineProps({
 <div class="bg-sky-700 border-b-2 border-slate-100">
 </div>
 
-<!-- MAIN ///////////////////// -->
-<div class="container mx-auto px-24 bg-white">
+
+<!-- ================================= -->
+<!-- CG-SECTION -->
+<!-- ================================= -->
+<div class="container mx-auto bg-white">
     <!-- Keterangan -->
     <div class="flex flex-col md:p-20 p-5">
         <h3 id="cg-title" class="md:text-5xl text-5xl font-bold mt-[1rem] text-teal-500 py-5 px-10">CGパース</h3>
@@ -121,34 +124,83 @@ defineProps({
             <!-- Images end -->
 
             <!-- need -->
-            <h4 class="text-xl font-semibold mt-6 mb-4">詳細</h4>
-            <div class="md:flex text-sm">
-                <p class="px-6 w-32 ">制作内容 :</p>
-                <p class="px-6">外観または内観CGパース1カット（120㎡まで） 、A2サイズ印刷レベルの高画質対応</p>
-            </div>
-            <div class="md:flex text-sm mt-2">
-                <p class="px-6 w-32 ">納品形態 :</p>
-                <p class="px-6">.jpgファイル納品</p>
-            </div>
-            <div class="md:flex text-sm mt-2">
-                <p class="px-6 w-32 ">必要資料 :</p>
-                <p class="px-6">外観 + 内観、住宅 1 棟（120 ㎡ まで）の CG 動画、2～３分程度</p>
-            </div>
-            <div class="md:flex text-sm mt-2">
-                <p class="px-6 w-32 ">納期：</p>
-                <p class="px-6">5 営業日以内（但し、制作チェックの確認期間は除きます）</p>
-            </div>
-            <div class="md:flex text-sm mt-2">
-                <p class="px-6 w-32"></p>
-                <p class="px-6 text-xs">※初回のご依頼はヒアリングや制作の流れを説明しながら進めますので 10 営業日以内となります</p>
-            </div>
+            <h4 class="text-xl font-semibold mt-6 mb-4">詳細</h4>                
+                <div class="md:grid grid-cols-2 md:ml-[9%] text-sm mt-6">
+                    <div class="md:text-right md:mr-72">制作内容 ：</div>
+                    <div class="md:-ml-60 w-[100%]">外観または内観CGパース1カット（120㎡まで）、A2サイズ印刷レベルの高画質対応</div>
+                    <div class="md:text-right md:mr-72">納品形態 ：</div>
+                    <div class="md:-ml-60 w-[100%] mt-2">5 .jpgファイル納品</div>
+                    <div class="md:text-right md:mr-72">必要資料 ：</div>
+                    <div class="md:-ml-60 w-[100%] mt-2">平面図、立面図、配置図、仕上表、Google Map で検索できる現地住所</div>
+                    <div class="md:text-right md:mr-72">納期 ：</div>
+                    <div class="md:-ml-60 w-[100%] mt-2">5 営業日以内（但し、制作チェックの確認期間は除きます）</div>
+                    <div class="md:text-right md:mr-72"></div>
+                    <div class="md:-ml-60 w-[100%] mt-2">※初回のご依頼はヒアリングや制作の流れを説明しながら進めますので 10 営業日以内となります</div>
+                </div>
             <!-- need end  -->
             <!-- images & need end -->
         </div>
     </div>
 </div>
+<!-- ================================= -->
+<!-- CG-SECTION-END -->
+<!-- ================================= -->
 
-<!-- MAIN END //// -->
+
+
+<!-- ================================= -->
+<!-- HOMESTAGING-SECTION -->
+<!-- ================================= -->
+<div class="container mx-auto bg-white">
+    <!-- Keterangan -->
+    <div class="flex flex-col md:p-20 p-5">
+        <h3 id="homestaging-title" class="md:text-5xl text-4xl font-bold mt-[1rem] text-white py-5 px-10">HOMESTAGING</h3>
+        <img src="imgs/sect2/4-1_before.jpg" alt="" class="w-full border-t-2 border-sky-500"> 
+        <!-- images & need -->
+        <!-- images -->
+        <h4 class="text-xl font-semibold mt-6 mb-4">詳細</h4>
+        <div class="grid md:grid-cols-4 -ml-4">
+            <div class="flex flex-col items-center">
+                <img src="imgs/2-2.jpg" alt="" class="px-4 mb-6">
+                <span>①ナチュラル</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="imgs/2-3.jpg" alt="" class="px-4 mb-6">
+                <span>②モダン</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="imgs/2-4.jpg" alt="" class="px-4 mb-6">
+                <span>③シンプル</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="imgs/2-5.jpg" alt="" class="px-4 mb-6">
+                <span>④ビンテージ</span>
+            </div>
+        </div>
+        <!-- images-end -->
+        <!-- needs -->                
+        <div class="md:grid grid-cols-2 md:ml-[9%] text-sm mt-6">
+            <div class="md:text-right md:mr-72">制作内容 ：</div>
+            <div class="md:-ml-60 w-[100%]">写真合成イメージ製作</div>
+            <div class="md:text-right md:mr-72">納品形態 ：</div>
+            <div class="md:-ml-60 w-[100%] mt-2">5 .jpgファイル納品。スライダー機能搭載の場合はURL納品となります。</div>
+            <div class="md:text-right md:mr-72">必要資料 ：</div>
+            <div class="md:-ml-60 w-[100%] mt-2">内観写真、インテリアスタイルの指示、家具配置の資料（写真や平面図に大体の家具の配置を記載した資料。手描きで構いません）</div>
+            <div class="md:text-right md:mr-72">納期 ：</div>
+            <div class="md:-ml-60 w-[100%] mt-2">5 営業日以内（但し、制作チェックの確認期間は除きます）</div>
+            <div class="md:text-right md:mr-72"></div>
+            <div class="md:-ml-60 w-[100%] mt-2 text-xs">※初回のご依頼はヒアリングや制作の流れを説明しながら進めますので１０営業日以内となります</div>
+            <div class="md:text-right md:mr-72">注意事項：</div>
+            <div class="md:-ml-60 w-[100%] mt-2">室内の家具は弊社お任せとなり家具の指定は不可となります。 CGホームステージングは基本的に修正は1回の提出となり、基本的に調整は行いません（微調整は承ります）。</div>
+            <div class="md:text-right md:mr-72"></div>
+            <div class="md:-ml-60 w-[100%] mt-2">スライダー機能搭載（URL納品）の場合、プログラムサーバー上での維持保守費用（月額30,000円）が別途必要になります。（データ量上限100ギガまで）</div>
+        </div>
+    </div>
+        <!-- need end  -->
+</div>
+<!-- ================================= -->
+<!-- HOMESTAGING-SECTION-END -->
+<!-- ================================= -->
 
 </template>
 
@@ -178,11 +230,15 @@ defineProps({
     filter: blur(50px); */
 }
 
-#cg-title {
+#cg-title, #homestaging-title {
     background-image: url(imgs/background/cg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -600px;
     text-shadow: 0 3px #fff;
+}
+
+#homestaging-title {
+    background-position-y: -50px;
 }
 </style>
