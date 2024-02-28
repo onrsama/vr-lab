@@ -92,15 +92,60 @@ defineProps({
     <br><br><br><br><br><br><br><br><br>
 </div>
 
-<!-- MAIN ///////////////////// -->
+
+<!-- MAIN ///// -->
 <div class="container mx-auto px-24">
     <!-- Keterangan -->
     <div class="flex flex-col md:p-20 p-5">
-        <h3 class="md:text-5xl text-4xl font-bold mt-[1rem] text-orange-500">Edit Bagian CGパース</h3>
+        <h3 class="md:text-5xl text-4xl font-bold mt-[1rem] text-orange-500">CGパース</h3>
         <p class="md:text-xl text-lg mt-6 text-gray-600">コンピューター上に実寸の3Dモデリングデータを配置し、仕上げ情報の反映(色・おうとつ・反射率・拡散率・屈折率)、ライティングの反映(配灯・光の強度影・ボケ方)、カメラ設定(シャッタースピード・視点の高さ・被写界深度)を入力し、演算結果とし視覚化します。</p>
+        <img src="imgs/2-1.jpg" alt="" class="w-full mt-10"> 
+        <!-- images & need -->
+        <!-- Images -->
+        <div>
+            <h4 class="text-xl mt-6 mb-3 font-semibold">制作事例</h4>
+            <div class="grid md:grid-rows-2 md:grid-cols-4 -ml-4">
+                <img src="imgs/2-2.jpg" alt="" class="px-4 mb-6">
+                <img src="imgs/2-3.jpg" alt="" class="px-4 mb-6">
+                <img src="imgs/2-4.jpg" alt="" class="px-4 mb-6">
+                <img src="imgs/2-5.jpg" alt="" class="px-4 mb-6">
+                <img src="imgs/2-6.jpg" alt="" class="px-4 mb-6">
+                <img src="imgs/2-9.jpg" alt="" class="px-4 mb-6">
+                <img src="imgs/2-7.jpg" alt="" class="px-4 mb-6">
+                <img src="imgs/2-8.jpg" alt="" class="px-4 mb-6">
+            </div>
+            <div class="-mt-4"><a href="#" class="underline">See more &rarr;</a></div>
+            <!-- Images end -->
+
+            <!-- need -->
+            <h4 class="text-xl font-semibold mt-6 mb-4">制作事例</h4>
+            <div class="md:flex text-sm">
+                <p class="px-6 w-32 ">制作内容 :</p>
+                <p class="px-6">外観または内観CGパース1カット（120㎡まで） 、A2サイズ印刷レベルの高画質対応</p>
+            </div>
+            <div class="md:flex text-sm mt-2">
+                <p class="px-6 w-32 ">納品形態 :</p>
+                <p class="px-6">.jpgファイル納品</p>
+            </div>
+            <div class="md:flex text-sm mt-2">
+                <p class="px-6 w-32 ">必要資料 :</p>
+                <p class="px-6">外観 + 内観、住宅 1 棟（120 ㎡ まで）の CG 動画、2～３分程度</p>
+            </div>
+            <div class="md:flex text-sm mt-2">
+                <p class="px-6 w-32 ">納期：</p>
+                <p class="px-6">5 営業日以内（但し、制作チェックの確認期間は除きます）</p>
+            </div>
+            <div class="md:flex text-sm mt-2">
+                <p class="px-6 w-32"></p>
+                <p class="px-6 text-xs">※初回のご依頼はヒアリングや制作の流れを説明しながら進めますので 10 営業日以内となります</p>
+            </div>
+            <!-- need end  -->
+            <!-- images & need end -->
+        </div>
     </div>
 </div>
-<!-- ///////////////////// -->
+
+<!-- MAIN END //// -->
 
 </template>
 
