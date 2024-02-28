@@ -50,9 +50,9 @@ defineProps({
 <!-- NAVBAR END /////////////////// -->
 
 <!-- MAIN ///////////////////// -->
-<div id="call-section" class="grid md:grid-cols-2 md:grid-rows-1 md:h-screen h-[140vh] gap-2 grid-rows-2">
+<div class="grid md:grid-cols-2 md:grid-rows-1 md:h-screen h-[140vh] gap-2 grid-rows-2">
     <nav id="nav" class="absolute right-0 left-0 top-0 h-14 flex items-center md:justify-between px-10 justify-between text-black"> 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Simple_Shop_logo.png" alt="" class="w-10 hidden">
+        <img src="imgs/sample-logo.png" alt="" class="w-10 hidden">
         <div class="text-sm  md:flex hidden font-semibold ml-[10%]">
             <a href="#" class="mx-5 hover:underline underline-offset-8 decoration-2 hover:text-[#4f43e5]">サービス</a>
             <a href="#" class="mx-5 hover:underline underline-offset-8 decoration-2 hover:text-[#4f43e5]">制作フロー</a>
@@ -66,8 +66,11 @@ defineProps({
     </nav>
 
     <!-- Keterangan -->
-    <div class="flex flex-col justify-center md:p-20 p-5">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Simple_Shop_logo.png" alt="" class="md:w-[8rem] w-[8rem]">
+    <div class="relative flex flex-col justify-center md:p-20 p-5">
+        <div id="call-section" class="absolute -top-40 -left-40 -z-10"></div>
+        <div id="call-section-2" class="absolute -z-10 -bottom-[540px] -right-[250px]"></div>
+
+        <img src="imgs/sample-logo.png" alt="" class="md:w-[6rem] w-[6rem]">
         <br>
         <div>
             <p class="rounded-full border md:inline hidden p-2 px-4">
@@ -88,12 +91,12 @@ defineProps({
 </div>
 <!-- ///////////////////// -->
 
-<div class="bg-slate-100">
+<div class="bg-sky-700">
     <br><br><br><br><br><br><br><br><br>
 </div>
 
 <!-- MAIN ///////////////////// -->
-<div class="container mx-auto px-24">
+<div class="container mx-auto px-24 bg-white">
     <!-- Keterangan -->
     <div class="flex flex-col md:p-20 p-5">
         <h3 class="md:text-5xl text-4xl font-bold mt-[1rem] text-orange-500">Edit Bagian CGパース</h3>
@@ -112,7 +115,21 @@ defineProps({
 </script>
 
 <style>
-#call-section {
-    /* background: radial-gradient(77.95% 77.95% at 74.66% 58.07%, rgba(255, 254, 220, 0.8) 0%, rgba(255, 255, 255, 0.152) 62.28%, rgba(255, 255, 255, 0) 100%), radial-gradient(89.67% 70.39% at 93.75% 92.16%, #29C2D7 0%, rgba(144, 160, 215, 0.49) 52.46%, rgba(255, 156, 156, 0) 100%), radial-gradient(68.86% 68.86% at 94.55% 1.7%, #FADC90 0%, rgba(250, 220, 144, 0) 100%), linear-gradient(130.87deg, rgba(245, 115, 122, 0.78) 3.47%, rgba(245, 115, 122, 0) 77.25%); background-blend-mode: overlay,normal,normal,normal,normal,normal; filter: blur(100px); */
+#call-section, #call-section-2 {
+    width: 600px;
+    height: 600px;
+    border-radius: 600px;
+    background: radial-gradient(77.95% 77.95% at 74.66% 58.07%, rgba(255, 254, 220, 0.8) 0%, rgba(255, 255, 255, 0.152) 62.28%, rgba(255, 255, 255, 0) 100%), radial-gradient(89.67% 70.39% at 93.75% 92.16%, #29C2D7 0%, rgba(144, 160, 215, 0.49) 52.46%, rgba(255, 156, 156, 0) 100%), radial-gradient(68.86% 68.86% at 94.55% 1.7%, #FADC90 0%, rgba(250, 220, 144, 0) 100%), linear-gradient(130.87deg, rgba(245, 115, 122, 0.78) 3.47%, rgba(245, 115, 122, 0) 77.25%);
+    background-blend-mode: overlay,normal,normal,normal,normal,normal;
+    filter: blur(50px);
+}
+
+#call-section-2 {
+    /* width: 400px;
+    height: 400px;
+    border-radius: 400px;
+    background: radial-gradient(105.68% 45.69% at 92.95% 50%, rgba(105, 244, 253, 0.5) 0%, rgba(160, 255, 244, 0.095) 53.91%, rgba(254, 216, 255, 0) 100%), radial-gradient(103.18% 103.18% at 90.11% 102.39%, #C9FFF2 0%, rgba(230, 255, 250, 0) 100%), radial-gradient(90.45% 90.45% at 87.84% 9.55%, #FFD2F5 0%, rgba(254, 219, 246, 0) 100%), linear-gradient(135.66deg, rgba(203, 185, 255, 0.8) 14.89%, rgba(216, 202, 254, 0) 74.33%);
+    background-blend-mode: normal,normal,normal,normal,normal,normal;
+    filter: blur(50px); */
 }
 </style>
